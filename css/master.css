@@ -1,0 +1,114 @@
+#bored {
+  background-color: #81C784;
+}
+#bored h1{
+  color: #fff;
+  font-size: 180%;
+  position: absolute;
+  top: 40%;
+}
+#bored q{
+  position: absolute;
+  font-size: 120%;
+  top: 40%;
+}
+#self-introduction h1{
+    font-size: 180%;
+    position: absolute;
+    top: 20%;
+}
+#self-introduction ul{
+    position: absolute;
+    top: 40%;
+}
+#self-introduction ul li{
+    font-size: 120%;
+    margin: 30px;
+}
+#agenda h1{
+    font-size: 180%;
+    position: absolute;
+    top: 20%;
+}
+#agenda ul{
+    position: absolute;
+    top: 40%;
+}
+#agenda ul li{
+    font-size: 120%;
+    margin: 30px;
+}
+#title h1{
+    font-size: 100px;
+}
+#excel h1{
+    font-size: 160%;
+    position: absolute;
+    top: 20%;
+}
+#excel ul{
+    position: absolute;
+    top: 30%;
+}
+#excel ul li{
+    font-size: 120%;
+    margin: 30px;
+}
+#big b{
+    font-size: 110px;
+}
+#ing{
+  width: 900px;
+}
+#ing h1{
+    font-size: 160%;
+    position: absolute;
+    top: 20%;
+}
+#ing ul{
+    position: absolute;
+    top: 30%;
+}
+#ing ul li{
+    font-size: 140%;
+    margin: 80px;
+}
+#gitflow{
+  background: url(../images/gitflow.png) no-repeat;
+  background-size: 100%;
+  width: 1300px;
+  height: 470px;
+}
+#blueprint h1{
+    font-size: 160%;
+    position: absolute;
+    top: 20%;
+}
+#blueprint ul{
+    position: absolute;
+    top: 30%;
+}
+#blueprint ul li{
+    font-size: 140%;
+    margin: 80px;
+}
+#spin{
+  background: url(../images/spin.gif) no-repeat;
+  background-size: 100%;
+  width: 1000px;
+  height: 600px;
+}
+#howto-pages h1{
+    font-size: 100px;
+}
+#please-github h1{
+    font-size: 100px;
+}
+#please-github-detail ul{
+    position: absolute;
+    top: 20%;
+}
+#please-github-detail ul li{
+    font-size: 140%;
+    margin: 80px 0;
+}

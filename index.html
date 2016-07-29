@@ -1,0 +1,129 @@
+<html lang="ja">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>GitHub Meetup</title>
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Bartek Szopka" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    <link href="css/master.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+<body class="impress-not-supported">
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+<div id="impress">
+
+  <div id="bored" class="step slide" data-x="-1000" data-y="-1500">
+    <h1>APIドキュメントの管理について</h1>
+    <q>吉田 祐樹@KDDI</q>
+  </div>
+
+  <div id="self-introduction" class="step slide" data-x="0" data-y="-1500">
+    <h1>Self Introduction</h1>
+    <ul>
+      <li>吉田 祐樹</li>
+      <li>Yah◯◯(2009-04 - 2015-09)</li>
+      <li>KDDI(2015-10 - 現在)</li>
+      <li>Webアプリケーションエンジニア</li>
+    </ul>
+  </div>
+
+  <div id="agenda" class="step slide" data-x="1000" data-y="-1500">
+    <h1>Agenda</h1>
+    <ul>
+      <li>APIドキュメントの管理について</li>
+      <li>GitHubへの願い</li>
+    </ul>
+  </div>
+
+  <div id="title" class="step" data-x="0" data-y="0" data-scale="2">
+    <h1>APIドキュメント書いてますか？</h1>
+  </div>
+
+  <div id="excel" class="step slide" data-x="0" data-y="2500" data-scale="4">
+    <h1>Excelで書いたりしてないですよね？</h1>
+    <ul>
+      <li>APIドキュメント.xls</li>
+      <li>APIドキュメント_20160801.xls</li>
+      <li>APIドキュメント_20160801_new.xls</li>
+      <li>APIドキュメント_20160801_new_2.xls</li>
+      <li>APIドキュメント_最終版.xls</li>
+      <li>APIドキュメント_最終版_20160802.xls</li>
+    </ul>
+  </div>
+
+  <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
+    <p>そこは<b>gh-pages</b><span class="thoughts">ですよね？</span></p>
+  </div>
+
+  <div id="gitflow" class="step" data-x="2825" data-y="2325" data-z="-4000" data-rotate="300" data-scale="3">
+  </div>
+
+  <div id="ing" class="step slide" data-x="3500" data-y="-1000" data-rotate="270" data-scale="4">
+    <h1>APIドキュメントTools</h1>
+    <ul>
+      <li><b class="rotating">Slate</b></li>
+      <li><b class="rotating">RAML</b></li>
+      <li><b class="scaling">API Blueprint</b></li>
+    </ul>
+  </div>
+
+  <div id="blueprint" class="step slide" data-x="3500" data-y="-5500" data-rotate="270" data-scale="4">
+    <h1>API Blueprint</h1>
+    <ul>
+      <li>APIに特化してMarkdownで記述</li>
+      <li>GulpやGruntでwatchして書ける</li>
+      <li>簡単に流行りのデザインへ</li>
+    </ul>
+  </div>
+
+  <div id="spin" class="step" data-x="7000" data-y="-5500" data-rotate="270" data-scale="4">
+  </div>
+
+  <div id="howto-pages" class="step" data-x="6700" data-y="-300" data-rotate="90" data-scale="6">
+    <h1><b>gh-pages</b>の使い道はドキュメントだけにあらず</h1>
+  </div>
+
+  <div id="sourc" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
+    <p>Slide, Code coverage, Test results<br>and more...</p>
+  </div>
+
+  <div id="one-more-thing" class="step" data-x="6000" data-y="3000" data-scale="2">
+    <p>バージョン管理しながらアウトプットを見せれるのは便利</p>
+  </div>
+
+  <div id="please-github" class="step" data-x="6200" data-y="4000" data-z="-500" data-rotate-x="-50" data-rotate-y="10" data-scale="2">
+    <h1>GitHubへの願い</h1>
+  </div>
+
+  <div id="please-github-detail" class="step slide" data-x="6800" data-y="7000" data-z="1200" data-rotate-x="-50" data-rotate-y="10" data-scale="2">
+    <ul>
+      <li>masterブランチへのPushをProtect</li>
+      <li>CloudFormationテンプレート冗長構成対応</li>
+      <li>社内へのGit講習会</li>
+    </ul>
+  </div>
+
+  <div id="overview" class="step" data-x="3000" data-y="-1500" data-scale="12"></div>
+</div>
+
+<div class="hint">
+    <p>8/2 GitHub Meetup</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) {
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
